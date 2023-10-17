@@ -88,6 +88,7 @@ input[type=number]:focus {
   <input class="generate" type="submit" id="generate" name="generate" value="Generate" />
 </form>
 
+<!-- disply result if only the form was submitted -->
 <?php if ($is_submitted): ?>
 <div class="success">
   <h3>Result</h3>  
